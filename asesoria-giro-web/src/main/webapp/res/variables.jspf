@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="s" uri="/struts-tags"%>
+
+<c:set var="cssVersion" value="1" />
+<c:set var="jsVersion" value="1" />
+
+<c:set var="urlServidor" value="${pageContext.request.scheme}://${pageContext.request.serverName}" />
+
+<c:if test="${pageContext.request.serverName == 'alex-pc' || pageContext.request.serverName == '192.168.1.50'}">
+<c:set var="urlServidor" value="http://${pageContext.request.serverName}" />
+</c:if>
+
+<c:url var="urlRes" value="${urlServidor}/res/" />
+<c:url var="urlImg" value="${urlRes}img/" />
+<c:url var="urlCss" value="${urlRes}css/" />
+<c:url var="urlJavascript" value="${urlRes}js/" />

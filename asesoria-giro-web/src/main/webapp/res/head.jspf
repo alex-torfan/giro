@@ -1,0 +1,20 @@
+<%@ include file="variables.jspf" %>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/resources/images/favicon.png">
+<title>GIRO | Tu asesor&iacute;a online</title>
+
+<link href='http://fonts.googleapis.com/css?family=Loved+by+the+King' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css' />
+<link href='${urlCss}jquery-ui-1.10.2.custom.min.css?vcss=${cssVersion}' rel='stylesheet' type='text/css' />
+<link href='${urlCss}desktop.css?vcss=${cssVersion}' rel='stylesheet' type='text/css' />
+<link href='${urlCss}jMenu.jquery.css?vcss=${cssVersion}' rel='stylesheet' type='text/css' />
+<link href='${urlCss}flexslider.css?vcss=${cssVersion}' rel='stylesheet' type='text/css' />
+
+<script type="text/javascript" src="${urlJavascript}jquery-1.10.1.min.js?vjs=${jsVersion}"></script>
+<script type="text/javascript" src="${urlJavascript}jquery-ui-1.10.3.min.js?vjs=${jsVersion}"></script>
+<!--[if lt IE 9]><script src="${urlJavascript}css3-mediaqueries.js"></script><![endif]-->
+<script type="text/javascript" src="${urlJavascript}jMenu.jquery.js?vjs=${jsVersion}"></script>
+<script type="text/javascript" src="${urlJavascript}jquery.flexslider.js?vjs=${jsVersion}"></script>
+<script type="text/javascript" src="${urlJavascript}jquery.scrollToTop.min.js?vjs=${jsVersion}"></script>

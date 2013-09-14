@@ -1,0 +1,136 @@
+@import url("jquery-ui-1.10.2.custom.min.css");
+
+/** Generic */
+html {width: 100%; height: 100%; /*min-height: 100%;*/}
+body {width: 100%; height: 100%; /*min-height: 100%;*/ margin: 0; padding: 0; color: #5F0960; font: 12px normal "Century Gothic",CenturyGothic,"Apple Gothic",AppleGothic,"URW Gothic L",Arial;}
+button, input {font: 0.8em normal "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L",Arial; border: none;}
+a {color: #5F0960; text-decoration: none;}
+a:visited {color: #5F0960;}
+ul {padding: 0; margin: 0; list-style: none;}
+#wrapper {position: absolute; width: 100%; min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -220px;}
+.giroWidth {max-width: 1060px; min-width: 1060px; width: auto; padding: 0 10px;}
+.centered {margin-left: auto; margin-right: auto;}
+.clear {clear: both;}
+.alineaArriba {vertical-align: top;}
+.vSeparator {width: 1px; float: left; height: 160px; background: url("../img/v_spliter.jpg") no-repeat center center;}
+.vSeparator.large {height: 900px; background: url("../img/v_splitter_large.png") no-repeat center center;}
+.vSeparator.medium {height: 660px; background: url("../img/v_splitter_medium.png") no-repeat center center;}
+.hSeparator {width: 1000px; margin: 0 auto; clear: both; height: 2px; background: url("../img/h_splitter.png") no-repeat 0 0;}
+.formulario {border: 1px solid #C0C0C0;}
+.toTop {float: right; cursor: pointer; color: #3F0640; text-decoration: underline; display: block !important; opacity: 1 !important;
+background: url("http://elma.dreivip.com/rs/img/v1/totop.png") no-repeat left top; color: #FFF; width: 51px; height: 51px; right: -20px;}
+.toTop:hover {background: url("http://elma.dreivip.com/rs/img/v1/totop.png") no-repeat left bottom;}
+
+/** Head */
+#topBar {position: absolute; top: 0; width: 100%; height: 8px; background: #5F0960 repeat 0 0;}
+#header {height: 168px; margin: 8px auto 0 auto; position: relative;}
+#logoGiro {width: 213px; height: 80px; display: block; float: left; margin-top: 22px; display: block;}
+#headerTopRight {float: right; margin-top: 24px; text-align: right;}
+#textoHeaderConsultas {text-align: right; float: right; margin-top: 4px; line-height: 12px;}
+#textoHeaderContacto {float: right;}
+#textoHeaderContacto .telefono {font-size: 30px; font-weight: bold; line-height: 29px; margin: 0 0 0 10px;}
+.telefonoBig {font-size: 26px;}
+.textoURL {text-align: center; margin-top: -5px;}
+
+/** Top menu */
+#menuGiro {height: 48px; position: absolute; bottom: 0; left: 10px; display: block; width: 1060px; background: #5F0960;}
+#menuGiro>.menuItemGiro {background: none; float: left;}
+#menuGiro>.menuItemGiro.navegable:hover, #menuGiro>.menuItemGiro.navegable.selected {height: 48px; border-bottom: 5px solid #999;}
+#menuGiro>.menuItemGiro.navegable>a {color: #FFF; line-height: 48px; padding: 0 35px; font-size: 1.3em;}
+#menuGiro>.menuItemGiro.buscador {float: right; height: 24px; padding: 12px 18px 12px 0;}
+#menuGiro>.menuItemGiro.buscador input {background: #FFF url('../img/lupa.png') no-repeat 6px 6px; height: 23px; padding: 0 0 2px 25px; margin: 0; width: 250px; color: #999; font-size: 1.3em;}
+
+/** Footer */
+#piePagina, #piePaginaPush {height: 270px;}
+#piePagina {color: #FFF; margin: 0 auto; width: 100%; position: absolute; bottom: 40px; background: #323232;}
+#piePagina .topShadowedBar {border-top: 1px solid #999; position: absolute; width: 100%; top: 0; height: 8px; background: #C3C5C5; box-shadow: 0px 8px 20px -2px #000;}
+#piePagina .bottomShadowedBar {border-bottom: 1px solid #999; position: absolute; width: 100%; bottom: 0; height: 8px; background: #C3C5C5; box-shadow: 0px -8px 20px -2px #000;}
+#piePagina .giroWidth {position: relative; margin: 0 auto; top: 8px;}
+#piePagina .giroWidth, #piePagina .giroWidth .columna {height: 254px;}
+#piePagina .columna.primera {position: relative; float: left; width: 550px;}
+#piePagina .columna.ultima {position: absolute; right: 0;}
+#piePagina .columna .titulo {font-size: 18px; margin: 22px 0;}
+#piePagina .columna ul {float: left; margin-right: 80px; list-style: circle; padding-left: 16px;}
+#piePagina .columna ul.ultimo {margin-right: 0px;}
+#piePagina .columna ul li {line-height: 35px;}
+#piePagina .columna ul li a {color: #FFF;}
+#piePagina .columna ul li a:VISITED {color: #FFF;}
+#piePagina .columna ul li a:HOVER {color: #999;}
+#piePagina #mapaGiroGmaps {float: left; position: relative;}
+#piePagina #mapaGiroGmaps img {border: 2px solid #999;}
+#piePagina .columna.ultima .contacto {float: left; width: 260px; margin-left: 20px; line-height: 24px; margin-top: 15px;}
+#piePagina .columna.ultima .contacto a {color: #FFF; font-weight: bold;}
+#piePagina #gremioAF {position: relative; height: auto; top: 0; text-align: right;}
+#piePagina #gremioAF>* {display: table-cell; vertical-align: middle;}
+#piePagina #gremioAF img {margin-left: 15px;}
+.barraContacto {color: #3F0640; position: absolute; bottom: 0; width: 100%; height: 40px; background: #EDECF1;}
+.barraContacto .giroWidth {margin: 0 auto;}
+.barraContacto .datosContacto {width: 500px; margin: auto; line-height: 40px; font-size: 11px; color: #323232;}
+#piePagina .barraContacto .giroWidth {position: relative; margin: 0 auto; height: 40px;}
+#infoContacto {position: absolute; left: 0; top: 89px;}
+#socialMedia {top: 55px; float: right; position: relative;}
+#socialMedia>* {margin: 0 3px; float: left; width: 32px; height: 32px;}
+.iconoFacebook {background: url('../img/white-icon-facebook.png') no-repeat 0 0;}
+.iconoMail {background: url('../img/icono-mail-2.png') no-repeat 0 0;}
+.iconoPrint {background: url('../img/icono-print.png') no-repeat 0 0;}
+
+/** Home Content */
+#cuerpoPagina {height: auto; width: 100%; display: inline-block; clear: both;}
+#contenidoPagina {padding-bottom: 70px;}
+#contenidoPagina.home #carousel.barousel {width: 1110px; height: 347px;}
+#imagenCentralHome1 {height: 463px; background: url("../img/comunidades.jpg") no-repeat 0 0;}
+#imagenCentralHome2 {height: 463px; background: url("../img/seguros.jpg") no-repeat 0 0;}
+.flex-container {position: relative;}
+.giroWidth.home.centered .flexslider {border: none; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none;}
+.flexslider .sombra-slider {margin: auto; width: 988px; height: 80px; margin-top: -45px; background: url("../img/sombra-slider.png") no-repeat 0 0;}
+.flexslider .slides {background: #FFF; z-index: 1; position: relative;}
+#homeCenter {}
+#novedadesContainer {width: 731px; float: left; margin-top: 40px;}
+#contenidoPagina.home {background: #EDECF1; margin-top: 75px; border-top: 1px solid #C3C3C5;}
+#contenidoPagina.home .novedad {width: 365px; height: 230px; float: left; *margin-right: 7px; margin-top: 30px; margin-bottom: 30px; text-align: center;}
+#contenidoPagina.home .novedad .imagen {margin: 0 auto; width: 123px;}
+#contenidoPagina.home .novedad .texto {margin: 20px auto 0 auto; width: 264px;}
+#contenidoPagina.home .novedad .texto.extra {width: 290px;}
+#contenidoPagina.home .novedad .texto .titulo {font-size: 18px; font-weight: bold; color: #000;}
+#contenidoPagina.home .novedad .texto .subtitulo {font-size: 14px; font-weight: bold; color: #999;}
+/*#contenidoPagina.home .vSeparator {margin-top: 51px;}*/
+#contenidoPagina.home .novedad.ultimo {margin-right: 0;}
+#contactoContainer {float: left; min-width: 234px; max-width: 344px; width: 234px; margin-left: 34px; margin-top: 65px;}
+#contactoContainer .titulo {font-weight: bold; font-size: 1.9em; color: #000;}
+#formularioContacto {color: #000; margin-top: 20px;}
+#formularioContacto .fila {margin-top: 10px;}
+#formularioContacto .columna {width: 70px; display: inline-block;}
+#formularioContacto input[type=text] {width: 220px;}
+#formularioContacto select {width: 222px;}
+#formularioContacto textarea {width: 220px; height: 100px;}
+#formularioContacto #btnEnviarContacto {cursor: pointer; background: #999; color: #FFF; padding: 5px 8px;}
+#formularioContacto #btnEnviarContacto:HOVER {background: #323232;}
+
+/** Servicios Content */
+#migasDePan {line-height: 60px; margin-top: 5px;}
+#migasDePan a.old {font-weight: bold;}
+#contenidoPagina.servicios .content {margin: 0 35px 100px 35px;/* width: 688px; float: left;*/}
+#contenidoPagina.servicios #contactoContainer {margin-top: 0;}
+#contenidoPagina.servicios {color: #323232; text-align: justify; font-size: 14px;}
+#contenidoPagina.servicios h1 {font-weight: normal; margin-top: 0; font-size: 24px;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios {width: 840px; margin-top: 20px;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li */{margin-top: 10px;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios > /*li > */.title {position: relative; background: #5F0960; cursor: pointer; line-height: 30px; padding-left: 20px; margin-top: 10px; font-size: 18px; color: #FFF;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li */.icono {background: url("../img/expandable.png") no-repeat 50% 50%; width: 12px; height: 100%; position: absolute; right: 25px; top: 0;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li.expanded */.icono {background: url("../img/expanded.png") no-repeat 50% 50%;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content {display: none; margin: 0; background: #FFF; position: relative;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content .intro {padding: 10px 0;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote {margin: 0 20px 30px 20px;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .title {font-weight: bold; font-size: 16px;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box {background: #EDECF1; box-shadow: 5px 5px 20px 0px #C3C5C5; font-size: 14px; padding: 15px;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box ul {margin: 15px 0;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box .letraPequenya {font-size: 10px;}
+
+/** Quienes somos Content */
+#contenidoPagina.quienesSomos {color: #323232; text-align: justify;}
+#contenidoPagina.quienesSomos .content {margin: 0 30px 100px 0; width: 730px; float: left; font-size: 14px;}
+#contenidoPagina.quienesSomos h1 {font-weight: normal; margin-top: 0; font-size: 24px;}
+#contenidoPagina.quienesSomos #contactoContainer {margin-top: 0; margin-bottom: 20px;}
+
+
+
