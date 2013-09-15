@@ -8,7 +8,7 @@ a {color: #5F0960; text-decoration: none;}
 a:visited {color: #5F0960;}
 ul {padding: 0; margin: 0; list-style: none;}
 #wrapper {position: absolute; width: 100%; min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -220px;}
-.giroWidth {max-width: 1060px; min-width: 1060px; width: auto; padding: 0 10px;}
+.giroWidth {max-width: 960px; min-width: 960px; width: auto; padding: 0 10px;}
 .centered {margin-left: auto; margin-right: auto;}
 .clear {clear: both;}
 .alineaArriba {vertical-align: top;}
@@ -22,7 +22,7 @@ background: url("http://elma.dreivip.com/rs/img/v1/totop.png") no-repeat left to
 .toTop:hover {background: url("http://elma.dreivip.com/rs/img/v1/totop.png") no-repeat left bottom;}
 
 /** Head */
-#topBar {position: absolute; top: 0; width: 100%; height: 8px; background: #5F0960 repeat 0 0;}
+#topBar {position: absolute; top: 0; min-width: 980px; width: 100%; height: 8px; background: #5F0960 repeat 0 0;}
 #header {height: 168px; margin: 8px auto 0 auto; position: relative;}
 #logoGiro {width: 213px; height: 80px; display: block; float: left; margin-top: 22px; display: block;}
 #headerTopRight {float: right; margin-top: 24px; text-align: right;}
@@ -33,24 +33,25 @@ background: url("http://elma.dreivip.com/rs/img/v1/totop.png") no-repeat left to
 .textoURL {text-align: center; margin-top: -5px;}
 
 /** Top menu */
-#menuGiro {height: 48px; position: absolute; bottom: 0; left: 10px; display: block; width: 1060px; background: #5F0960;}
+#menuGiro {height: 48px; position: absolute; bottom: 0; left: 10px; display: block; width: 960px; background: #5F0960;}
 #menuGiro>.menuItemGiro {background: none; float: left;}
 #menuGiro>.menuItemGiro.navegable:hover, #menuGiro>.menuItemGiro.navegable.selected {height: 48px; border-bottom: 5px solid #999;}
 #menuGiro>.menuItemGiro.navegable>a {color: #FFF; line-height: 48px; padding: 0 35px; font-size: 1.3em;}
-#menuGiro>.menuItemGiro.buscador {float: right; height: 24px; padding: 12px 18px 12px 0;}
-#menuGiro>.menuItemGiro.buscador input {background: #FFF url('../img/lupa.png') no-repeat 6px 6px; height: 23px; padding: 0 0 2px 25px; margin: 0; width: 250px; color: #999; font-size: 1.3em;}
+#menuGiro>.menuItemGiro.buscador {float: right; height: 29px; border-left: 1px solid #FFF; padding: 12px 0 7px 15px;}
+#menuGiro>.menuItemGiro.buscador input {height: 23px; width: 0; float: left; color: #999; font-size: 1.3em; border: none; outline: none;}
+#menuGiro>.menuItemGiro.buscador img {cursor: pointer; margin: 5px 15px 0 0; float: right;}
 
 /** Footer */
 #piePagina, #piePaginaPush {height: 270px;}
-#piePagina {color: #FFF; margin: 0 auto; width: 100%; position: absolute; bottom: 40px; background: #323232;}
-#piePagina .topShadowedBar {border-top: 1px solid #999; position: absolute; width: 100%; top: 0; height: 8px; background: #C3C5C5; box-shadow: 0px 8px 20px -2px #000;}
-#piePagina .bottomShadowedBar {border-bottom: 1px solid #999; position: absolute; width: 100%; bottom: 0; height: 8px; background: #C3C5C5; box-shadow: 0px -8px 20px -2px #000;}
+#piePagina {color: #FFF; margin: 0 auto; min-width: 980px; width: 100%; position: absolute; bottom: 40px; background: #323232;}
+#piePagina .topShadowedBar {border-top: 1px solid #999; position: absolute; min-width: 980px; width: 100%; top: 0; height: 8px; background: #C3C5C5; box-shadow: 0px 8px 20px -2px #000;}
+#piePagina .bottomShadowedBar {border-bottom: 1px solid #999; position: absolute; min-width: 980px; width: 100%; bottom: 0; height: 8px; background: #C3C5C5; box-shadow: 0px -8px 20px -2px #000;}
 #piePagina .giroWidth {position: relative; margin: 0 auto; top: 8px;}
 #piePagina .giroWidth, #piePagina .giroWidth .columna {height: 254px;}
-#piePagina .columna.primera {position: relative; float: left; width: 550px;}
+#piePagina .columna.primera {position: relative; float: left; width: 463px;}
 #piePagina .columna.ultima {position: absolute; right: 0;}
 #piePagina .columna .titulo {font-size: 18px; margin: 22px 0;}
-#piePagina .columna ul {float: left; margin-right: 80px; list-style: circle; padding-left: 16px;}
+#piePagina .columna ul {float: left; margin-right: 35px; list-style: circle; padding-left: 16px;}
 #piePagina .columna ul.ultimo {margin-right: 0px;}
 #piePagina .columna ul li {line-height: 35px;}
 #piePagina .columna ul li a {color: #FFF;}
@@ -63,7 +64,7 @@ background: url("http://elma.dreivip.com/rs/img/v1/totop.png") no-repeat left to
 #piePagina #gremioAF {position: relative; height: auto; top: 0; text-align: right;}
 #piePagina #gremioAF>* {display: table-cell; vertical-align: middle;}
 #piePagina #gremioAF img {margin-left: 15px;}
-.barraContacto {color: #3F0640; position: absolute; bottom: 0; width: 100%; height: 40px; background: #EDECF1;}
+.barraContacto {color: #3F0640; position: absolute; bottom: 0; min-width: 980px; width: 100%; height: 40px; background: #EDECF1;}
 .barraContacto .giroWidth {margin: 0 auto;}
 .barraContacto .datosContacto {width: 500px; margin: auto; line-height: 40px; font-size: 11px; color: #323232;}
 #piePagina .barraContacto .giroWidth {position: relative; margin: 0 auto; height: 40px;}
@@ -76,18 +77,18 @@ background: url("http://elma.dreivip.com/rs/img/v1/totop.png") no-repeat left to
 
 /** Home Content */
 #cuerpoPagina {height: auto; width: 100%; display: inline-block; clear: both;}
-#contenidoPagina {padding-bottom: 70px;}
+#contenidoPagina {padding-bottom: 70px; min-width: 980px;}
 #contenidoPagina.home #carousel.barousel {width: 1110px; height: 347px;}
 #imagenCentralHome1 {height: 463px; background: url("../img/comunidades.jpg") no-repeat 0 0;}
 #imagenCentralHome2 {height: 463px; background: url("../img/seguros.jpg") no-repeat 0 0;}
 .flex-container {position: relative;}
 .giroWidth.home.centered .flexslider {border: none; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none;}
-.flexslider .sombra-slider {margin: auto; width: 988px; height: 80px; margin-top: -45px; background: url("../img/sombra-slider.png") no-repeat 0 0;}
+.flexslider .sombra-slider {margin: auto; width: 960px; height: 80px; margin-top: -45px; background: url("../img/sombra-slider.png") no-repeat -15px 0;}
 .flexslider .slides {background: #FFF; z-index: 1; position: relative;}
 #homeCenter {}
-#novedadesContainer {width: 731px; float: left; margin-top: 40px;}
+#novedadesContainer {width: 690px; float: left; margin-top: 40px;}
 #contenidoPagina.home {background: #EDECF1; margin-top: 75px; border-top: 1px solid #C3C3C5;}
-#contenidoPagina.home .novedad {width: 365px; height: 230px; float: left; *margin-right: 7px; margin-top: 30px; margin-bottom: 30px; text-align: center;}
+#contenidoPagina.home .novedad {width: 345px; height: 230px; float: left; *margin-right: 7px; margin-top: 30px; margin-bottom: 30px; text-align: center;}
 #contenidoPagina.home .novedad .imagen {margin: 0 auto; width: 123px;}
 #contenidoPagina.home .novedad .texto {margin: 20px auto 0 auto; width: 264px;}
 #contenidoPagina.home .novedad .texto.extra {width: 290px;}
@@ -125,10 +126,12 @@ background: url("http://elma.dreivip.com/rs/img/v1/totop.png") no-repeat left to
 #contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box {background: #EDECF1; box-shadow: 5px 5px 20px 0px #C3C5C5; font-size: 14px; padding: 15px;}
 #contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box ul {margin: 15px 0;}
 #contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box .letraPequenya {font-size: 10px;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box ul li > .dash {float: left;}
+#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box ul li > .texto {margin-left: 14px;}
 
 /** Quienes somos Content */
 #contenidoPagina.quienesSomos {color: #323232; text-align: justify;}
-#contenidoPagina.quienesSomos .content {margin: 0 30px 100px 0; width: 730px; float: left; font-size: 14px;}
+#contenidoPagina.quienesSomos .content {margin: 0 30px 100px 0; width: 660px; float: left; font-size: 14px;}
 #contenidoPagina.quienesSomos h1 {font-weight: normal; margin-top: 0; font-size: 24px;}
 #contenidoPagina.quienesSomos #contactoContainer {margin-top: 0; margin-bottom: 20px;}
 

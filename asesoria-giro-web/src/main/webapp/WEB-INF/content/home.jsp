@@ -15,11 +15,11 @@
 		<%@ include file="topPagina.jsp" %>
 		<div class="giroWidth home centered" style="height: 240px; margin-top: 45px;">
 			<div class="flex-container">
-				<div class="flexslider">
+				<div class="flexslider" style="width: 960px; overflow: hidden;">
 					<ul class="slides">
 						<li><img src="${urlImg}comunidades.png" alt="" class="" /></li>
-						<li><img src="${urlImg}renta.png" alt="" class="" /></li>
-						<li><img src="${urlImg}tarifas.png" alt="" class="" /></li>
+						<%--<li><img src="${urlImg}renta.png" alt="" class="" /></li>
+						--%><li><img src="${urlImg}tarifas.png" alt="" class="" /></li>
 						<li><img src="${urlImg}nueva-web.png" alt="" class="" /></li>
 						<li><img src="${urlImg}seguros.png" alt="" class="" /></li>
 					</ul>

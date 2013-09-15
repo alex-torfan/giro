@@ -31,343 +31,124 @@
 						r&aacute;pida y eficaz.
 					</p>
 					<div class="desgloseServicios" id="accordion">
-						<div class="title"><span>Administraci&oacute;n de fincas</span><span class="icono"></span></div>
+						<div class="title"><span>Administraci&oacute;n de fincas y parkings comunitarios</span><span class="icono"></span></div>
 						<div class="content">
-							<div class="intro">Cubrimos todos los aspectos administrativos de una empresa. Desde la gestión de toda la documentación necesaria hasta la confección de nóminas y seguros sociales.</div>
+							<div class="intro"></div>
 							<blockquote>
 								<div class="box">
-									<div class="title">Comunidades de vecinos</div>
-									<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
+									<div class="title">Administraci&oacute;n</div>
 									<ul>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
+										<li><div class="dash">-</div> <div class="texto">Convocatoria de Juntas.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Elaboraci&oacute;n de toda la documentaci&oacute;n.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Ejecuci&oacute;n y seguimiento de las deliberaciones aprobadas en la Junta de Propietarios.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Redacci&oacute;n de actas.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Elaboraci&oacute;n de documentos de representaci&oacute;n en Juntas de Propietarios.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Presencia en la Junta de Propietarios ordinaria.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">An&aacute;lisis y comprobaci&oacute;n de la existencia del seguro de incendios o multiriesgos por parte de los comuneros.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Custodia de la documentaci&oacute;n y libros de la comunidad.</div><div class="clear"></div></li>
 									</ul>
-									<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
 								</div>
 							</blockquote>
 							<blockquote>
 								<div class="box">
-									<div class="title">Parkings comunitarios</div>
-									<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
+									<div class="title">Contabilidad y aspectos financieros</div>
 									<ul>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
+										<li><div class="dash">-</div> <div class="texto">Elaboraci&oacute;n del presupuesto anual.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Elaboraci&oacute;n de las cuentas y balances anuales.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Gesti&oacute;n de todo tipo de documentos a nombre de la comunidad, apertura de cuenta, etc.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Gesti&oacute;n de emisi&oacute;n y env&iacute;o de recibos para pago de las cuotas.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Gesti&oacute;n, cobro y pagos de los gastos de la comunidad.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Emisi&oacute;n de recibos para el cobro de las cutoas.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Reclamaci&oacute;n de impagos.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Presentaci&oacute;n de varios presupuestos para la realizaci&oacute;n de los actos necesarios en la conservaci&oacute;n de los bienes comunes.</div><div class="clear"></div></li>
 									</ul>
-									<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
 								</div>
 							</blockquote>
+							<blockquote>
+								<div class="box">
+									<div class="title">Soluciones anti-morosos</div>
+									<ul>
+										<li><div class="dash">-</div> <div class="texto">Control de la morosidad de la comunidad con un seguimiento exhaustivo de cada caso, realizando las reclamaciones formales debidas, y en los casos necesarios usar la m&aacute;xima firmeza en el cobro de las cutoas pendientes.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Notificiaciones personalizadas v&iacute;a correo electr&oacute;nico, llamada tel&eacute;fonica, correo certificado o burofax.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Convenios con despachos de abogados para reclamaciones judiciales contra morosos.</div><div class="clear"></div></li>
+									</ul>
+								</div>
+							</blockquote>
+							<div class="intro"><div class="letraPequenya">Para recibir m&aacute;s informaci&oacute;n, contacte con nosotros <a href="${urlQuienesSomos}">aqu&iacute;</a>.</div></div>
 						</div>
 						<div class="title"><span>Aut&oacute;nomos y empresas</span><span class="icono"></span></div>
 						<div class="content">
-							<div class="intro">Cubrimos todos los aspectos administrativos de una empresa. Desde la gestión de toda la documentación necesaria hasta la confección de nóminas y seguros sociales.</div>
+							<div class="intro"></div>
 							<blockquote>
 								<div class="box">
 									<div class="title">Servicio contable</div>
-									<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
 									<ul>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
+										<li><div class="dash">-</div> <div class="texto">Administración de su contabilidad en la apertura del período contable y en ejercicios ya iniciados.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Revisión y asesoramiento ante cualquier problema contable.</div><div class="clear"></div></li>
+										<li>
+											<div class="dash">-</div>
+											<div class="texto">
+												Gestión digital de los trámites o­ficiales:<br />
+												Libro Diario<br />
+												Libro Mayor<br />
+												Inventario<br />
+												Balances<br />
+												Pérdidas y Ganancias
+											</div>
+											<div class="clear"></div>
+										</li>
 									</ul>
-									<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
 								</div>
 							</blockquote>
 							<blockquote>
 								<div class="box">
 									<div class="title">Servicio fiscal</div>
-									<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
 									<ul>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
+										<li><div class="dash">-</div> <div class="texto">Declaración censal de alta, modificación y baja en el censo de obligados tributarios.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Régimen de estimación directa y de estimación objetiva.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Impuesto sobre el Valor Añadido (IVA).</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Impuesto sobre la Renta de las Personas Físicas.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Declaración de Renta y Patrimonio.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Impuesto sobre Sociedades.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Declaración Anual de Operaciones con Terceros de más de 3.005,06 €.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Asistencia y gestión de cualquier tipo de trámite ante los Organismos Públicos.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Optimización de la aplicación de la normativa vigente para conseguir el máximo ahorro en todos los impuestos.</div><div class="clear"></div></li>
 									</ul>
-									<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
 								</div>
 							</blockquote>
 							<blockquote>
 								<div class="box">
 									<div class="title">Servicio laboral</div>
-									<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
 									<ul>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
+										<li><div class="dash">-</div> <div class="texto">Confección de nóminas y seguros sociales.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Altas y bajas en Seguridad Social.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Confección de contratos.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Modelos de retenciones.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Resúmenes anuales.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Altas y bajas autónomos.</div><div class="clear"></div></li>
+										<li><div class="dash">-</div> <div class="texto">Tramitación de prestaciones según normativa actual.</div><div class="clear"></div></li>
 									</ul>
-									<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
 								</div>
 							</blockquote>
+							<div class="intro"><div class="letraPequenya">Para recibir m&aacute;s informaci&oacute;n, contacte con nosotros <a href="${urlQuienesSomos}">aqu&iacute;</a>.</div></div>
 						</div>
 						<div class="title"><span>Otros servicios</span><span class="icono"></span></div>
 						<div class="content">
-							<div class="intro">Cubrimos todos los aspectos administrativos de una empresa. Desde la gestión de toda la documentación necesaria hasta la confección de nóminas y seguros sociales.</div>
+							<div class="intro"></div>
 							<blockquote>
 								<div class="box">
 									<div class="title">Dise&ntilde;o y programaci&oacute;n web</div>
-									<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
-									<ul>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-									</ul>
-									<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
-								</div>
-							</blockquote>
-							<blockquote>
-								<div class="box">
+									<br/>
 									<div class="title">C&eacute;dulas de habitabilidad</div>
-									<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
-									<ul>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-									</ul>
-									<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
+									<br/>
+									<div class="title">Servicios de abogac&iacute;a</div>
 								</div>
 							</blockquote>
-							<blockquote>
-								<div class="box">
-									<div class="title">Servicio de abogac&iacute;a</div>
-									<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
-									<ul>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-										<li>- Desglose de servicio</li>
-									</ul>
-									<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
-								</div>
-							</blockquote>
+							<div class="intro"><div class="letraPequenya">Para recibir m&aacute;s informaci&oacute;n, contacte con nosotros <a href="${urlQuienesSomos}">aqu&iacute;</a>.</div></div>
 						</div>
 					</div>
-					<%--
-					<ul class="desgloseServicios">
-						<li class="expandable">
-							<div class="title">
-								<span>Administraci&oacute;n de fincas</span><span class="icono"></span>
-							</div>
-							<div class="content">
-								<div class="intro">Cubrimos todos los aspectos administrativos de una empresa. Desde la gestión de toda la documentación necesaria hasta la confección de nóminas y seguros sociales.</div>
-								<blockquote>
-									<div class="box">
-										<div class="title">Comunidades de vecinos</div>
-										<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
-										<ul>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-										</ul>
-										<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
-									</div>
-								</blockquote>
-								<blockquote>
-									<div class="box">
-										<div class="title">Parkings comunitarios</div>
-										<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
-										<ul>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-										</ul>
-										<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
-									</div>
-								</blockquote>
-							</div>
-						</li>
-						<li class="expandable">
-							<div class="title">
-								<span>Aut&oacute;nomos y empresas</span><span class="icono"></span>
-							</div>
-							<div class="content">
-								<div class="intro">Cubrimos todos los aspectos administrativos de una empresa. Desde la gestión de toda la documentación necesaria hasta la confección de nóminas y seguros sociales.</div>
-								<blockquote>
-									<div class="box">
-										<div class="title">Servicio contable</div>
-										<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
-										<ul>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-										</ul>
-										<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
-									</div>
-								</blockquote>
-								<blockquote>
-									<div class="box">
-										<div class="title">Servicio fiscal</div>
-										<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
-										<ul>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-										</ul>
-										<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
-									</div>
-								</blockquote>
-								<blockquote>
-									<div class="box">
-										<div class="title">Servicio laboral</div>
-										<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
-										<ul>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-										</ul>
-										<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
-									</div>
-								</blockquote>
-							</div>
-						</li>
-						<li class="expandable">
-							<div class="title">
-								<span>Otros servicios</span><span class="icono"></span>
-							</div>
-							<div class="content">
-								<div class="intro">Cubrimos todos los aspectos administrativos de una empresa. Desde la gestión de toda la documentación necesaria hasta la confección de nóminas y seguros sociales.</div>
-								<blockquote>
-									<div class="box">
-										<div class="title">Dise&ntilde;o y programaci&oacute;n web</div>
-										<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
-										<ul>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-										</ul>
-										<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
-									</div>
-								</blockquote>
-								<blockquote>
-									<div class="box">
-										<div class="title">C&eacute;dulas de habitabilidad</div>
-										<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
-										<ul>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-										</ul>
-										<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
-									</div>
-								</blockquote>
-								<blockquote>
-									<div class="box">
-										<div class="title">Servicio de abogac&iacute;a</div>
-										<div class="">Deje su comunidad en las mejores manos… Nos encargamos de gestionar todos los asuntos financieros, legales y técnicos de su comunidad para su buen funcionamiento.</div>
-										<ul>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-											<li>- Desglose de servicio</li>
-										</ul>
-										<div class="letraPequenya">Precio desde 3,50 &euro; vecino/mes. Para un presupuesto detallado p&oacute;ngase en contacto con nosotros <a href="${urlContacto}">aqu&iacute;</a>.</div>
-									</div>
-								</blockquote>
-							</div>
-						</li>
-					</ul>
-					--%>
 				</div>
 
-				<%--
-				<div class="vSeparator large"></div>
-				<div id="contactoContainer">
-					<div class="titulo">
-						ATENCI&Oacute;N PERSONALIZADA<br /> Y PRESUPUESTO SIN COMPROMISO
-					</div>
-					<div>
-						<s:url var="urlEnviarContacto" value="/contacto/enviar" />
-						<form id="formularioContacto" action="${urlEnviarContacto}"
-							method="post">
-							<div class="fila">
-								<label class="columna" for="nombreContacto">*Nombre:</label> <input
-									class="formulario" type="text" name="nombre"
-									id="nombreContacto" />
-							</div>
-							<div class="fila">
-								<label class="columna" for="telefonoContacto">*Tel&eacute;fono:</label>
-								<input class="formulario" type="text" name="telefono"
-									id="telefonoContacto" />
-							</div>
-							<div class="fila">
-								<label class="columna" for="emailContacto">Email:</label> <input
-									class="formulario" type="text" name="email" id="emailContacto" />
-							</div>
-							<div class="fila">
-								<label class="columna" for="asuntoContacto">Asunto:</label> <select
-									class="formulario" name="asunto" id="asuntoContacto">
-									<option value="0">Administraci&oacute;n de fincas</option>
-									<option value="1">Aut&oacute;nomos</option>
-									<option value="2">Empresas</option>
-									<option value="3">Seguros</option>
-									<option value="4">Dise&ntilde;o y programaci&oacute;n
-										web</option>
-									<option value="5">Otros servicios</option>
-								</select>
-							</div>
-							<div class="fila">
-								<label class="columna alineaArriba" for="consultaContacto">*Consulta:</label>
-								<textarea class="formulario" name="consulta"
-									id="consultaContacto"></textarea>
-							</div>
-							<div class="fila">
-								<input type="checkbox" name="politicaPrivacidad"
-									id="politicaPrivacidadContacto" /> <label
-									for="politicaPrivacidadContacto">Acepto la
-									pol&iacute;tica de privacidad</label>
-							</div>
-							<div class="fila">
-								<input type="submit" value="Enviar" id="btnEnviarContacto" />
-							</div>
-						</form>
-					</div>
-				</div>
-				--%>
 			</div>
 		</div>
 		<%@ include file="piePagina.jsp"%>
@@ -378,23 +159,22 @@
 			$("#accordion > .title").unbind().click(expandir);
 		}
 		function expandir() {
+			$("#migasDePan .seccion").remove();
 			var content = $(this).next();
 			if (content.is(":visible")) {
-				content.removeClass("expanded");
+				content.slideUp();
+				content.removeClass("expanded").addClass("expandable");
+			} else {
+				colapsarTodos();
+				content.slideDown();
+				content.addClass("expanded");
+				$("#migasDePan").append('<span class="seccion">&nbsp;&gt;&nbsp; <a href="#">' + $(this).text() + '</a></span>');
 			}
-			colapsarTodos();
-			content.slideDown();
-			content.addClass("expanded");
 			makeExpandible();
 		}
 		function colapsarTodos() {
 			$(".content.expanded").slideUp();
 			$(".expanded").removeClass("expanded").addClass("expandable");
-		}
-		function colapsar() {
-			$(this).parent().find(".content").slideUp();
-			$(this).parent().removeClass("expanded").addClass("expandable");
-			makeExpandible();
 		}
 		$(function() {
 			makeExpandible();

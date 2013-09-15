@@ -25,6 +25,24 @@
 		<li class="menuItemGiro navegable<c:if test="${nombrePagina eq 'seguros'}"> selected</c:if>"><a href="${urlSeguros}">Seguros</a></li>
 		<li class="menuItemGiro navegable<c:if test="${nombrePagina eq 'quienes-somos'}"> selected</c:if>"><a href="${urlQuienesSomos}">Qui&eacute;nes somos</a></li>
 <%-- 		<li class="menuItemGiro navegable<c:if test="${nombrePagina eq 'contacto'}"> selected</c:if>"><a href="${urlContacto}">Contacto</a></li> --%>
-		<li class="menuItemGiro buscador"><input type="text" value="Buscar en la web..." /></li>
+		<li class="menuItemGiro buscador">
+			<input name="terminosBusqueda" type="text" value="" />
+			<img src="${urlImg}lupa.png" alt="" />
+			<div class="clear"></div>
+		</li>
 	</ul>
 </div>
+
+<script type="text/javascript">
+function ampliarCampoBusqueda() {
+	$("[name=terminosBusqueda]").css("marginRight", "15px").stop().animate({width: "250px"});
+	$(this).unbind().click(reducirCampoBusqueda);
+}
+function reducirCampoBusqueda() {
+	$("[name=terminosBusqueda]").stop().animate({width: "0"}, function() {
+		$(this).css("marginRight", "0");
+	});
+	$(this).unbind().click(ampliarCampoBusqueda);
+}
+$(function() {$("#menuGiro>.menuItemGiro.buscador img").click(ampliarCampoBusqueda);});
+</script>

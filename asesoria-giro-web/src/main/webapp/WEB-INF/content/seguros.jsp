@@ -222,60 +222,6 @@
 					</div>
 				</div>
 
-				<%--
-				<div class="vSeparator large"></div>
-				<div id="contactoContainer">
-					<div class="titulo">
-						ATENCI&Oacute;N PERSONALIZADA<br /> Y PRESUPUESTO SIN COMPROMISO
-					</div>
-					<div>
-						<s:url var="urlEnviarContacto" value="/contacto/enviar" />
-						<form id="formularioContacto" action="${urlEnviarContacto}"
-							method="post">
-							<div class="fila">
-								<label class="columna" for="nombreContacto">*Nombre:</label> <input
-									class="formulario" type="text" name="nombre"
-									id="nombreContacto" />
-							</div>
-							<div class="fila">
-								<label class="columna" for="telefonoContacto">*Tel&eacute;fono:</label>
-								<input class="formulario" type="text" name="telefono"
-									id="telefonoContacto" />
-							</div>
-							<div class="fila">
-								<label class="columna" for="emailContacto">Email:</label> <input
-									class="formulario" type="text" name="email" id="emailContacto" />
-							</div>
-							<div class="fila">
-								<label class="columna" for="asuntoContacto">Asunto:</label> <select
-									class="formulario" name="asunto" id="asuntoContacto">
-									<option value="0">Administraci&oacute;n de fincas</option>
-									<option value="1">Aut&oacute;nomos</option>
-									<option value="2">Empresas</option>
-									<option value="3">Seguros</option>
-									<option value="4">Dise&ntilde;o y programaci&oacute;n
-										web</option>
-									<option value="5">Otros servicios</option>
-								</select>
-							</div>
-							<div class="fila">
-								<label class="columna alineaArriba" for="consultaContacto">*Consulta:</label>
-								<textarea class="formulario" name="consulta"
-									id="consultaContacto"></textarea>
-							</div>
-							<div class="fila">
-								<input type="checkbox" name="politicaPrivacidad"
-									id="politicaPrivacidadContacto" /> <label
-									for="politicaPrivacidadContacto">Acepto la
-									pol&iacute;tica de privacidad</label>
-							</div>
-							<div class="fila">
-								<input type="submit" value="Enviar" id="btnEnviarContacto" />
-							</div>
-						</form>
-					</div>
-				</div>
-				--%>
 			</div>
 		</div>
 		<%@ include file="piePagina.jsp"%>
@@ -286,23 +232,22 @@
 			$("#accordion > .title").unbind().click(expandir);
 		}
 		function expandir() {
+			$("#migasDePan .seccion").remove();
 			var content = $(this).next();
 			if (content.is(":visible")) {
-				content.removeClass("expanded");
+				content.slideUp();
+				content.removeClass("expanded").addClass("expandable");
+			} else {
+				colapsarTodos();
+				content.slideDown();
+				content.addClass("expanded");
+				$("#migasDePan").append('<span class="seccion">&nbsp;&gt;&nbsp; <a href="#">' + $(this).text() + '</a></span>');
 			}
-			colapsarTodos();
-			content.slideDown();
-			content.addClass("expanded");
 			makeExpandible();
 		}
 		function colapsarTodos() {
 			$(".content.expanded").slideUp();
 			$(".expanded").removeClass("expanded").addClass("expandable");
-		}
-		function colapsar() {
-			$(this).parent().find(".content").slideUp();
-			$(this).parent().removeClass("expanded").addClass("expandable");
-			makeExpandible();
 		}
 		$(function() {
 			makeExpandible();
