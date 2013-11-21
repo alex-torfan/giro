@@ -7,184 +7,126 @@
 <head>
 <%@ include file="../../res/head.jspf"%>
 </head>
-<body>
+<body class="home">
 
-	<div id="topBar"></div>
+	<c:set var="pagina" value="0" />
+	<%@ include file="topPagina.jsp" %>
 	<div id="wrapper">
-		<c:set var="nombrePagina" value="inicio" />
-		<%@ include file="topPagina.jsp" %>
-		<div class="giroWidth home centered" style="height: 240px; margin-top: 45px;">
+		<div class="giroWidth home centered">
 			<div class="flex-container">
 				<div class="flexslider" style="width: 960px; overflow: hidden;">
 					<ul class="slides">
-						<li><img src="${urlImg}comunidades.png" alt="" class="" /></li>
-						<%--<li><img src="${urlImg}renta.png" alt="" class="" /></li>
-						--%><li><img src="${urlImg}tarifas.png" alt="" class="" /></li>
-						<li><img src="${urlImg}nueva-web.png" alt="" class="" /></li>
-						<li><img src="${urlImg}seguros.png" alt="" class="" /></li>
+						<li>
+							<div class="texto">
+								<h1><s:text name="carrusel.comunidades.titulo" /></h1>
+								<div><s:text name="carrusel.comunidades.descripcion" /></div>
+							</div>
+							<img src="${urlImg}carrusel/comunidades_${locale.language}.png" alt="" class="" />
+							<div class="clear"></div>
+						</li>
+						<li>
+							<div class="texto">
+								<h1><s:text name="carrusel.precios-bajos.titulo" /></h1>
+								<div><s:text name="carrusel.precios-bajos.descripcion" /></div>
+							</div>
+							<img src="${urlImg}carrusel/precios-bajos.png" alt="" class="" />
+							<div class="clear"></div>
+						</li>
+						<li>
+							<div class="texto">
+								<h1><s:text name="carrusel.nueva-web.titulo" /></h1>
+								<div><s:text name="carrusel.nueva-web.descripcion" /></div>
+							</div>
+							<img src="${urlImg}carrusel/nueva-web.png" alt="" class="" />
+							<div class="clear"></div>
+						</li>
+						<li>
+							<div class="texto">
+								<h1><s:text name="carrusel.seguros.titulo" /></h1>
+								<div><s:text name="carrusel.seguros.descripcion" /></div>
+							</div>
+							<img src="${urlImg}carrusel/seguros_${locale.language}.png" alt="" class="" />
+							<div class="clear"></div>
+						</li>
 					</ul>
 					<div class="sombra-slider"></div>
 				</div>
 			</div>
 		</div>
-		<div id="contenidoPagina" class="home" style="margin-top: 0;">
+		<div id="contenidoPagina" class="home" style="margin-top: 0px;">
 			<div id="homeCenter" class="giroWidth centered">
 				<div id="novedadesContainer">
 					<div class="novedad">
 						<div class="imagen">
-							<img src="${urlImg}casa.png"
-								alt="Administraci&oacute;n de fincas" />
+							<img src="${urlImg}casa.png" alt="Administraci&oacute;n de fincas" />
 						</div>
 						<div class="texto">
-							<div class="titulo">ADMINISTRACI&Oacute;N DE FINCAS</div>
-							<div class="subtitulo">Presupuesto sin compromiso para su
-								finca o p&aacute;rking</div>
-							<div class="subtitulo">Gesti&oacute;n financiera, legal y
-								t&eacute;cnica</div>
-							<div class="subtitulo">Nos ocupamos de todo</div>
+							<div class="titulo"><s:text name="servicio.administracion-de-fincas.titulo" /></div>
+							<div class="subtitulo"><s:text name="servicio.administracion-de-fincas.subtitulo1" /></div>
+							<div class="subtitulo"><s:text name="servicio.administracion-de-fincas.subtitulo2" /></div>
+							<div class="subtitulo"><s:text name="servicio.administracion-de-fincas.subtitulo3" /></div>
 						</div>
 					</div>
 					<div class="novedad">
 						<div class="imagen">
-							<img src="${urlImg}paraguas.png"
-								alt="Gesti&oacute;n de seguros" />
+							<img src="${urlImg}paraguas.png" alt="Gesti&oacute;n de seguros" />
 						</div>
 						<div class="texto">
-							<div class="titulo">GESTI&Oacute;N DE SEGUROS</div>
-							<div class="subtitulo">Tenemos el producto que se ajusta a
-								sus necesidades</div>
-							<div class="subtitulo">Conf&iacute;e en una de las mejores
-								compa&ntilde;&iacute;as del mercado</div>
+							<div class="titulo"><s:text name="servicio.gestion-de-seguros.titulo" /></div>
+							<div class="subtitulo"><s:text name="servicio.gestion-de-seguros.subtitulo1" /></div>
+							<div class="subtitulo"><s:text name="servicio.gestion-de-seguros.subtitulo2" /></div>
 						</div>
 					</div>
-
+	
 					<div class="novedad">
 						<div class="imagen">
 							<img src="${urlImg}hucha.png" alt="Tarifas low cost" />
 						</div>
 						<div class="texto">
-							<div class="titulo">TARIFAS LOW COST</div>
-							<div class="subtitulo">Nos ajustamos a las necesidades de
-								cada cliente</div>
-							<div class="subtitulo">Garantizamos la eficacia en todos
-								nuestros servicios y al mejor precio</div>
+							<div class="titulo"><s:text name="servicio.tarifas-low-cost.titulo" /></div>
+							<div class="subtitulo"><s:text name="servicio.tarifas-low-cost.subtitulo1" /></div>
+							<div class="subtitulo"><s:text name="servicio.tarifas-low-cost.subtitulo2" /></div>
 						</div>
 					</div>
 					<div class="novedad">
 						<div class="imagen">
-							<img src="${urlImg}autonomos.png" alt="Aut&oacute;nomos" />
+							<img src="${urlImg}autonomos.png" alt="Aut&oacute;nomos y empresas" />
 						</div>
 						<div class="texto extra">
-							<div class="titulo">AUT&Oacute;NOMOS Y EMPRESAS</div>
-							<div class="subtitulo">Confeccionamos todos sus movimientos
-								contables, fiscales y laborales</div>
-							<div class="subtitulo">Experiencia, confianza y
-								m&aacute;xima profesionalidad</div>
+							<div class="titulo"><s:text name="servicio.autonomos-y-empresas.titulo" /></div>
+							<div class="subtitulo"><s:text name="servicio.autonomos-y-empresas.subtitulo1" /></div>
+							<div class="subtitulo"><s:text name="servicio.autonomos-y-empresas.subtitulo2" /></div>
 						</div>
 					</div>
-
+	
 					<div class="novedad">
 						<div class="imagen">
-							<img src="${urlImg}ordenadores.png"
-								alt="Dise&ntilde;o y programaci&oacute;n web" />
+							<img src="${urlImg}ordenadores.png" alt="Dise&ntilde;o y programaci&oacute;n web" />
 						</div>
 						<div class="texto extra">
-							<div class="titulo">DISE&Ntilde;O Y PROGRAMACI&Oacute;N WEB</div>
-							<div class="subtitulo">D&eacute;le un impulso a su empresa</div>
-							<div class="subtitulo">Consiga aumentar sus beneficios con
-								presencia en Internet</div>
-							<div class="subtitulo">Sitios personalizados seg&uacute;n
-								su negocio</div>
+							<div class="titulo"><s:text name="servicio.diseno-y-programacion-web.titulo" /></div>
+							<div class="subtitulo"><s:text name="servicio.diseno-y-programacion-web.subtitulo1" /></div>
+							<div class="subtitulo"><s:text name="servicio.diseno-y-programacion-web.subtitulo2" /></div>
+							<div class="subtitulo"><s:text name="servicio.diseno-y-programacion-web.subtitulo3" /></div>
 						</div>
 					</div>
 					<div class="novedad">
 						<div class="imagen">
-							<img src="${urlImg}otros-servicios.png"
-								alt="Otros servicios" />
+							<img src="${urlImg}otros-servicios.png" alt="Otros servicios" />
 						</div>
 						<div class="texto">
-							<div class="titulo">OTROS SERVICIOS</div>
-							<div class="subtitulo">Tramitamos c&eacute;dulas de
-								habitabilidad</div>
-							<div class="subtitulo">Para cualquier duda que necesite
-								resolver disponemos de un buffete de abogados</div>
+							<div class="titulo"><s:text name="servicio.otros-servicios.titulo" /></div>
+							<div class="subtitulo"><s:text name="servicio.otros-servicios.subtitulo1" /></div>
+							<div class="subtitulo"><s:text name="servicio.otros-servicios.subtitulo2" /></div>
 						</div>
 					</div>
 				</div>
-
+	
 				<div class="vSeparator large"></div>
 				<div id="contactoContainer">
-					<div class="titulo">
-						ATENCI&Oacute;N PERSONALIZADA<br /> Y PRESUPUESTO SIN COMPROMISO
-					</div>
-					<div>
-						<s:url var="urlEnviarContacto" value="/contacto/enviar" />
-						<form id="formularioContacto" action="${urlEnviarContacto}"
-							method="post">
-							<div class="fila">
-								<label class="columna" for="nombreContacto">*Nombre:</label> <input
-									class="formulario" type="text" name="nombre"
-									id="nombreContacto" />
-							</div>
-							<div class="fila">
-								<label class="columna" for="telefonoContacto">*Tel&eacute;fono:</label>
-								<input class="formulario" type="text" name="telefono"
-									id="telefonoContacto" />
-							</div>
-							<div class="fila">
-								<label class="columna" for="emailContacto">Email:</label> <input
-									class="formulario" type="text" name="email" id="emailContacto" />
-							</div>
-							<div class="fila">
-								<label class="columna" for="asuntoContacto">Asunto:</label> <select
-									class="formulario" name="asunto" id="asuntoContacto">
-									<option value="0">Administraci&oacute;n de fincas</option>
-									<option value="1">Aut&oacute;nomos</option>
-									<option value="2">Empresas</option>
-									<option value="3">Seguros</option>
-									<option value="4">Dise&ntilde;o y programaci&oacute;n web</option>
-									<option value="5">Otros servicios</option>
-								</select>
-							</div>
-							<div class="fila">
-								<label class="columna alineaArriba" for="consultaContacto">*Consulta:</label>
-								<textarea class="formulario" name="consulta"
-									id="consultaContacto"></textarea>
-							</div>
-							<div class="fila">
-								<input type="checkbox" name="politicaPrivacidad"
-									id="politicaPrivacidadContacto" /> <label
-									for="politicaPrivacidadContacto">Acepto la
-									pol&iacute;tica de privacidad</label>
-							</div>
-							<div class="fila">
-								<input type="submit" value="Enviar" id="btnEnviarContacto" />
-							</div>
-						</form>
-					</div>
+					<%@ include file="formulario-contacto.jspf" %>
 				</div>
-
-				<%--
-				<div class="novedad"><img src="" alt="" /></div>
-				<div class="vSeparator"></div>
-				<div class="novedad"><img src="" alt="" /></div>
-				<div class="vSeparator"></div>
-				<div class="novedad ultimo"><img src="" alt="" /></div>
-	
-				<div class="hSeparator"></div>
-				
-				<div class="novedad"><img src="" alt="" /></div>
-				<div class="vSeparator"></div>
-				<div class="novedad"><img src="" alt="" /></div>
-				<div class="vSeparator"></div>
-				<div class="novedad ultimo"><img src="" alt="" /></div>
-	
-				<div class="hSeparator"></div>
-				--%>
 				<div class="clear"></div>
-				<%--
-				<div id="piePaginaPush"></div>
-				--%>
 			</div>
 		</div>
 		<%@ include file="piePagina.jsp"%>

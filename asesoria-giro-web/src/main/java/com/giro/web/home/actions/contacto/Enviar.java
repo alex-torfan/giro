@@ -3,6 +3,7 @@ package com.giro.web.home.actions.contacto;
 import javax.annotation.Resource;
 import javax.mail.Message;
 import javax.mail.Multipart;
+import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
@@ -15,10 +16,10 @@ import org.apache.struts2.convention.annotation.Result;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-@Action(value = "enviar", results = { 
-	@Result(name = ActionSupport.SUCCESS, location = "../index", type = "redirect")
+@Action(value = "enviar", results = {
+	@Result(name = ActionSupport.SUCCESS,location = "../index", type = "redirect")
 })
-public class EnviarContactoForm extends ActionSupport {
+public class Enviar extends ActionSupport {
 
 	private static final long serialVersionUID = 7444730354526183678L;
 
@@ -33,10 +34,18 @@ public class EnviarContactoForm extends ActionSupport {
 
 	@Override
 	public String execute() throws Exception {
+//		Properties props = System.getProperties();
+//		props.put("mail.smtp.starttls.enable", "true");
+//		props.put("mail.smtp.port", "587");
+//		props.put("mail.smtp.auth", "true");
+//		this.mailSession = Session.getDefaultInstance(props, new Sistemas());
+
 		InternetAddress mailAsesoria = new InternetAddress("assessoriagiro@hotmail.com");
+		InternetAddress mailAlex = new InternetAddress("alex.torfan@gmail.com");
 		MimeMessage message = new MimeMessage(this.mailSession);
 		message.setFrom(mailAsesoria);
 		message.addRecipient(Message.RecipientType.TO, mailAsesoria);
+		message.addRecipient(Message.RecipientType.BCC, mailAlex);
 		message.setSubject("Contacto vía web", "UTF-8");
 
 		StringBuilder sb = new StringBuilder("<html>");
@@ -58,9 +67,23 @@ public class EnviarContactoForm extends ActionSupport {
 		mp.addBodyPart(htmlPart);
 		message.setContent(mp);
 
+//		Transport trans = this.mailSession.getTransport("smtp");
+//		trans.connect("smtp.live.com", "assessoriagiro@hotmail.com", "giro2011");
+//		trans.sendMessage(message, message.getRecipients(Message.RecipientType.TO));
+//		trans.sendMessage(message, message.getRecipients(Message.RecipientType.BCC));
 		Transport.send(message);
 
 		return SUCCESS;
+	}
+
+	class Sistemas extends javax.mail.Authenticator {
+		@Override
+		public PasswordAuthentication getPasswordAuthentication() {
+			String username = "assessoriagiro@hotmail.com";
+			String password = "giro2011";
+
+			return new PasswordAuthentication(username, password);
+		}
 	}
 
 	public String getNombre() {

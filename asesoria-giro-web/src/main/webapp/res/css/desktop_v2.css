@@ -8,12 +8,12 @@ a {color: #5F0960; text-decoration: none;}
 a:visited {color: #5F0960;}
 ul {padding: 0; margin: 0; list-style: none;}
 #wrapper {position: relative; width: 100%; min-height: 100%; height: auto !important; height: 100%; margin: 180px auto -220px; z-index: 1;}
-body.home #wrapper {position: absolute; margin: 0px auto -220px;}
+body.home #wrapper {position: absolute; margin: 0px auto -220px; background: #EDECF1;}
 #topFixedContent {position: fixed; width: 100%; z-index: 2; top: 0; height: 176px; background: #FFF; padding-bottom: 15px;}
 body.home #topFixedContent {position: inherit; padding-bottom: 0;}
 .giroWidth {max-width: 960px; min-width: 960px; width: auto; padding: 0 10px;}
 .centered {margin-left: auto; margin-right: auto;}
-.giroWidth.home.centered {height: 240px; margin-top: 35px;}
+.giroWidth.home.centered {margin-top: 35px;}
 .clear {clear: both;}
 .alineaArriba {vertical-align: top;}
 .vSeparator {width: 1px; float: left; height: 160px; background: url("../img/v_spliter.jpg") no-repeat center center;}
@@ -21,6 +21,9 @@ body.home #topFixedContent {position: inherit; padding-bottom: 0;}
 .vSeparator.medium {height: 660px; background: url("../img/v_splitter_medium.png") no-repeat center center;}
 .hSeparator {width: 1000px; margin: 0 auto; clear: both; height: 2px; background: url("../img/h_splitter.png") no-repeat 0 0;}
 .formulario {border: 1px solid #C0C0C0;}
+.toTop {float: right; cursor: pointer; color: #3F0640; text-decoration: underline; display: block !important; opacity: 1 !important;
+background: url("http://elma.dreivip.com/rs/img/v1/totop.png") no-repeat left top; color: #FFF; width: 51px; height: 51px; right: -20px;}
+.toTop:hover {background: url("http://elma.dreivip.com/rs/img/v1/totop.png") no-repeat left bottom;}
 .menuLateral a {color: #323232; text-decoration: underline; width: 100%; display: block;}
 .menuLateral .seleccionado a, .menuLateral a:HOVER {color: #5F0960;}
 .servicios .menuLateral, .seguros .menuLateral {
@@ -37,7 +40,7 @@ body.home #topFixedContent {position: inherit; padding-bottom: 0;}
 /** Head */
 #topBar {position: absolute; top: 0; min-width: 980px; width: 100%; height: 8px; background: #5F0960 repeat 0 0;}
 #header {height: 168px; margin: 8px auto 0 auto; position: relative;}
-#logoGiro {width: 213px; height: 80px; display: block; float: left; margin-top: 16px; display: block;}
+#logoGiro {width: 213px; height: 80px; display: block; float: left; margin-top: 26px; display: block;}
 #headerTopRight {float: right; margin-top: 24px; text-align: right;}
 #textoHeaderConsultas {text-align: right; line-height: 12px; padding-right: 10px; display: table-cell; vertical-align: middle;}
 #textoHeaderContacto {display: table-cell; vertical-align: middle;}
@@ -45,11 +48,11 @@ body.home #topFixedContent {position: inherit; padding-bottom: 0;}
 .textoURL {text-align: center; margin-top: -5px;}
 
 /** Top menu */
-#menuGiro {height: 48px; position: absolute; bottom: 0; left: 10px; display: block; width: 960px; background: #5F0960;}
-#menuGiro>.menuItemGiro {background: none; float: left; text-transform: uppercase;}
-#menuGiro>.menuItemGiro.navegable:hover, #menuGiro>.menuItemGiro.navegable.selected {height: 48px; border-bottom: 5px solid #999;}
-#menuGiro>.menuItemGiro.navegable>a {color: #FFF; line-height: 48px; padding: 0 25px; font-size: 14px;}
-#menuGiro>.menuItemGiro.buscador {float: right; height: 36px; border-left: 1px solid #FFF; padding: 12px 0 0 15px;}
+#menuGiro {height: 48px; position: relative; float: right; margin-top: 20px; display: block; background: none;}
+#menuGiro>.menuItemGiro {background: none; float: left; margin: 0 0 0 34px; text-transform: uppercase;}
+#menuGiro>.menuItemGiro.navegable>a {color: #5F0960; line-height: 36px; font-size: 18px; font-weight: bold; text-align: right;}
+#menuGiro>.menuItemGiro.navegable:hover, #menuGiro>.menuItemGiro.navegable.selected {color: #999; border-bottom: 2px solid #999;}
+#menuGiro>.menuItemGiro.buscador {float: right; height: 36px; border-left: 1px solid #FFF; padding: 12px 0 0 15px; display: none;}
 #menuGiro>.menuItemGiro.buscador input {margin: 0; padding: 0; height: 25px; width: 0; float: left; color: #999; font-size: 1.3em; border: none; outline: none;}
 #menuGiro>.menuItemGiro.buscador img {cursor: pointer; margin: 0 15px 0 0; float: right;}
 
@@ -94,16 +97,16 @@ body.home #topFixedContent {position: inherit; padding-bottom: 0;}
 #imagenCentralHome1 {height: 463px; background: url("../img/comunidades.jpg") no-repeat 0 0;}
 #imagenCentralHome2 {height: 463px; background: url("../img/seguros.jpg") no-repeat 0 0;}
 .flex-container {position: relative;}
-.giroWidth.home.centered .flexslider {border: none; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none;}
-.flexslider .sombra-slider {margin: auto; width: 960px; height: 80px; margin-top: -45px; background: url("../img/sombra-slider.png") no-repeat -15px 0;}
-.flexslider .slides {background: #EDECF1; z-index: 1; position: relative;}
-.flexslider .slides > li {height: 164px;}
-.flexslider .slides > li > .texto {padding: 7px 0 10px 20px; font-size: 14px; float: left; width: 460px;}
-.flexslider .slides > li > .texto h1 {font-weight: normal; font-size: 20px;}
+body.home .flex-container .flex-control-nav {bottom: -35px;}
+.giroWidth.home.centered .flexslider {background: transparent; border: none; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none;}
+.flexslider .slides {z-index: 1; position: relative;}
+.flexslider .slides > li {height: 315px;}
+.flexslider .slides > li > .texto {padding: 7px 0 10px 20px; font-size: 18px; float: left; width: 460px;}
+.flexslider .slides > li > .texto h1 {font-weight: normal; font-size: 26px;}
 .flexslider .slides > li img {float: right; width: 480px; height: 100%;}
 #homeCenter {}
 #novedadesContainer {width: 690px; float: left; margin-top: 40px;}
-#contenidoPagina.home {background: #EDECF1; margin-top: 75px; border-top: 1px solid #C3C3C5;}
+#contenidoPagina.home {background: #FFF url("../img/degradado.png") repeat-x 0 0; margin-top: 0; padding-top: 25px;}
 #contenidoPagina.home .novedad {width: 345px; height: 230px; float: left; *margin-right: 7px; margin-top: 30px; margin-bottom: 30px; text-align: center;}
 #contenidoPagina.home .novedad .imagen {margin: 0 auto; width: 123px;}
 #contenidoPagina.home .novedad .texto {margin: 20px auto 0 auto; width: 264px;}
@@ -129,21 +132,22 @@ body.home #topFixedContent {position: inherit; padding-bottom: 0;}
 #contenidoPagina.servicios > .centered > .content {padding-left: 35px; display: table-cell; vertical-align: top;}
 #contenidoPagina.servicios #contactoContainer {margin-top: 0;}
 #contenidoPagina.servicios {color: #323232; text-align: justify; font-size: 14px;}
-#contenidoPagina.servicios h1 {font-weight: normal; margin-top: 0; font-size: 24px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios {width: 840px; margin-top: 20px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li */{margin-top: 10px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios > /*li > */.title {position: relative; background: #5F0960; cursor: pointer; line-height: 30px; padding-left: 20px; margin-top: 10px; font-size: 18px; color: #FFF;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li */.icono {background: url("../img/expandable.png") no-repeat 50% 50%; width: 12px; height: 100%; position: absolute; right: 25px; top: 0;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li.expanded */.icono {background: url("../img/expanded.png") no-repeat 50% 50%;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content {display: none; margin: 0; background: #FFF; position: relative;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content .intro {padding: 10px 0;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote {margin: 0 20px 30px 20px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .title {font-weight: bold; font-size: 16px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box {background: #EDECF1; box-shadow: 5px 5px 20px 0px #C3C5C5; font-size: 14px; padding: 15px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box ul {margin: 15px 0;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box .letraPequenya {font-size: 10px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box ul li > .dash {float: left;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box ul li > .texto {margin-left: 14px;}
+#contenidoPagina.servicios h1 {font-weight: normal; margin-top: 0; font-size: 24px; text-align: left;}
+#contenidoPagina.servicios .desgloseServicios {margin-top: 20px;}
+#contenidoPagina.servicios .desgloseServicios {margin-top: 10px;}
+#contenidoPagina.servicios .desgloseServicios > .title {position: relative; background: #5F0960; cursor: pointer; line-height: 30px; padding-left: 20px; margin-top: 10px; font-size: 18px; color: #FFF;}
+#contenidoPagina.servicios .desgloseServicios > .title .icono {width: 12px; height: 100%; position: absolute; right: 25px; top: 0;}
+#contenidoPagina.servicios .desgloseServicios > .title.expandable .icono {background: url("../img/expandable.png?v=1") no-repeat 50% 50%;}
+#contenidoPagina.servicios .desgloseServicios > .title.expanded .icono {background: url("../img/expanded.png?v=1") no-repeat 50% 50%;}
+#contenidoPagina.servicios .desgloseServicios .content {margin: 60px 0 0 0; background: #FFF; position: relative;}
+#contenidoPagina.servicios .desgloseServicios .content .intro {padding: 10px 0;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote {margin: 0 0 30px 0;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote .title {font-weight: bold; font-size: 16px;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote .box {font-size: 14px;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote .box ul {margin: 15px 0;}
+#contenidoPagina.servicios .desgloseServicios .letraPequenya {font-size: 12px; margin: 0 0 25px 0;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote .box ul li > .dash {float: left;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote .box ul li > .texto {margin-left: 14px;}
 
 /** Quienes somos Content */
 #contenidoPagina.quienesSomos {color: #323232; text-align: justify;}

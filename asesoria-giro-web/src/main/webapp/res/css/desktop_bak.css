@@ -129,21 +129,22 @@ body.home #topFixedContent {position: inherit; padding-bottom: 0;}
 #contenidoPagina.servicios > .centered > .content {padding-left: 35px; display: table-cell; vertical-align: top;}
 #contenidoPagina.servicios #contactoContainer {margin-top: 0;}
 #contenidoPagina.servicios {color: #323232; text-align: justify; font-size: 14px;}
-#contenidoPagina.servicios h1 {font-weight: normal; margin-top: 0; font-size: 24px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios {width: 840px; margin-top: 20px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li */{margin-top: 10px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios > /*li > */.title {position: relative; background: #5F0960; cursor: pointer; line-height: 30px; padding-left: 20px; margin-top: 10px; font-size: 18px; color: #FFF;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li */.icono {background: url("../img/expandable.png") no-repeat 50% 50%; width: 12px; height: 100%; position: absolute; right: 25px; top: 0;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li.expanded */.icono {background: url("../img/expanded.png") no-repeat 50% 50%;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content {display: none; margin: 0; background: #FFF; position: relative;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content .intro {padding: 10px 0;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote {margin: 0 20px 30px 20px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .title {font-weight: bold; font-size: 16px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box {background: #EDECF1; box-shadow: 5px 5px 20px 0px #C3C5C5; font-size: 14px; padding: 15px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box ul {margin: 15px 0;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box .letraPequenya {font-size: 10px;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box ul li > .dash {float: left;}
-#contenidoPagina.servicios /*ul*/.desgloseServicios /*> li > */.content blockquote .box ul li > .texto {margin-left: 14px;}
+#contenidoPagina.servicios h1 {font-weight: normal; margin-top: 0; font-size: 24px; text-align: left;}
+#contenidoPagina.servicios .desgloseServicios {margin-top: 20px;}
+#contenidoPagina.servicios .desgloseServicios {margin-top: 10px;}
+#contenidoPagina.servicios .desgloseServicios > .title {position: relative; background: #5F0960; cursor: pointer; line-height: 30px; padding-left: 20px; margin-top: 10px; font-size: 18px; color: #FFF;}
+#contenidoPagina.servicios .desgloseServicios > .title .icono {width: 12px; height: 100%; position: absolute; right: 25px; top: 0;}
+#contenidoPagina.servicios .desgloseServicios > .title.expandable .icono {background: url("../img/expandable.png?v=1") no-repeat 50% 50%;}
+#contenidoPagina.servicios .desgloseServicios > .title.expanded .icono {background: url("../img/expanded.png?v=1") no-repeat 50% 50%;}
+#contenidoPagina.servicios .desgloseServicios .content {margin: 60px 0 0 0; background: #FFF; position: relative;}
+#contenidoPagina.servicios .desgloseServicios .content .intro {padding: 10px 0;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote {margin: 0 0 30px 0;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote .title {font-weight: bold; font-size: 16px;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote .box {font-size: 14px;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote .box ul {margin: 15px 0;}
+#contenidoPagina.servicios .desgloseServicios .letraPequenya {font-size: 12px; margin: 0 0 25px 0;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote .box ul li > .dash {float: left;}
+#contenidoPagina.servicios .desgloseServicios .content blockquote .box ul li > .texto {margin-left: 14px;}
 
 /** Quienes somos Content */
 #contenidoPagina.quienesSomos {color: #323232; text-align: justify;}

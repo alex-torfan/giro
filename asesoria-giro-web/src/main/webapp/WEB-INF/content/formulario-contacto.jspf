@@ -1,0 +1,59 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="s" uri="/struts-tags" %>
+<s:url var="urlEnviarContacto" value="/contacto/enviar" />
+
+<script type="text/javascript">
+	$(function() {
+		$("#btnEnviarContacto").click(function() {
+			alert($("#confirmacionContacto").text());
+			$.ajax({
+				url: "${urlEnviarContacto}",
+				data: $("#formularioContacto").serialize(),
+				type: "POST"
+			});
+			return false;
+		});
+	});
+</script>
+
+<div class="titulo"><s:text name="formulario-contacto.titulo" /></div>
+<div>
+	<form id="formularioContacto" action="" method="post">
+		<div class="fila">
+			<label class="columna" for="nombreContacto">*<s:text name="formulario-contacto.nombre" />:</label>
+			<input class="formulario" type="text" name="nombre" id="nombreContacto" />
+		</div>
+		<div class="fila">
+			<label class="columna" for="telefonoContacto">*<s:text name="formulario-contacto.telefono" />:</label>
+			<input class="formulario" type="text" name="telefono" id="telefonoContacto" />
+		</div>
+		<div class="fila">
+			<label class="columna" for="emailContacto"><s:text name="formulario-contacto.email" />:</label>
+			<input class="formulario" type="text" name="email" id="emailContacto" />
+		</div>
+		<div class="fila">
+			<label class="columna" for="asuntoContacto"><s:text name="formulario-contacto.asunto" />:</label>
+			<select class="formulario" name="asunto" id="asuntoContacto">
+				<option value="0"><s:text name="formulario-contacto.asunto.administracion-de-fincas" /></option>
+				<option value="1"><s:text name="formulario-contacto.asunto.autonomos" /></option>
+				<option value="2"><s:text name="formulario-contacto.asunto.empresas" /></option>
+				<option value="3"><s:text name="formulario-contacto.asunto.seguros" /></option>
+				<option value="4"><s:text name="formulario-contacto.asunto.diseno-y-programacion-web" /></option>
+				<option value="5"><s:text name="formulario-contacto.asunto.otros-servicios" /></option>
+			</select>
+		</div>
+		<div class="fila">
+			<label class="columna alineaArriba" for="consultaContacto">*<s:text name="formulario-contacto.consulta" />:</label>
+			<textarea class="formulario" name="consulta" id="consultaContacto"></textarea>
+		</div>
+		<div class="fila">
+			<input type="checkbox" name="politicaPrivacidad" id="politicaPrivacidadContacto" />
+			<label for="politicaPrivacidadContacto"><s:text name="formulario-contacto.politica-de-privacidad" /></label>
+		</div>
+		<div class="fila">
+			<input style="width: 30px;" value="Enviar" id="btnEnviarContacto" />
+		</div>
+		<div id="confirmacionContacto" style="display: none;"><s:text name="generic.contacto.confirmacion" /></div>
+	</form>
+</div>

@@ -15,3 +15,14 @@
 <c:url var="urlImg" value="${urlRes}img/" />
 <c:url var="urlCss" value="${urlRes}css/" />
 <c:url var="urlJavascript" value="${urlRes}js/" />
+
+<s:text var="txtUrlServicios" name="menu.servicios.url" />
+<s:text var="txtUrlSeguros" name="menu.seguros.url" />
+<s:text var="txtUrlQuienesSomos" name="menu.quienes-somos.url" />
+<s:text var="txtUrlContacto" name="menu.contacto.url" />
+
+<c:url var="urlInicio" value="${urlServidor}/" />
+<c:url var="urlServicios" value="${urlServidor}/${txtUrlServicios}" />
+<c:url var="urlSeguros" value="${urlServidor}/${txtUrlSeguros}" />
+<c:url var="urlQuienesSomos" value="${urlServidor}/${txtUrlQuienesSomos}" />
+<c:url var="urlContacto" value="${urlServidor}/${txtUrlContacto}" />

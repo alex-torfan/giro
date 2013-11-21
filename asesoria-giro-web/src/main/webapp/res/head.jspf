@@ -2,13 +2,16 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="shortcut icon" href="/resources/images/favicon.png">
-<title>GIRO | Tu asesor&iacute;a online</title>
+<title><s:text name="head.titulo" /></title>
 
-<link href='http://fonts.googleapis.com/css?family=Loved+by+the+King' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css' />
+<%-- <link href='http://fonts.googleapis.com/css?family=Loved+by+the+King' rel='stylesheet' type='text/css' /> --%>
+<%-- <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css' /> --%>
+<%-- <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css' /> --%>
+<link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic' rel='stylesheet' type='text/css' />
 <link href='${urlCss}jquery-ui-1.10.2.custom.min.css?vcss=${cssVersion}' rel='stylesheet' type='text/css' />
 <link href='${urlCss}desktop.css?vcss=${cssVersion}' rel='stylesheet' type='text/css' />
+<%-- <link href='${urlCss}desktop_bak.css?vcss=${cssVersion}' rel='stylesheet' type='text/css' /> --%>
+<%-- <link href='${urlCss}desktop_v2.css?vcss=${cssVersion}' rel='stylesheet' type='text/css' /> --%>
 <link href='${urlCss}jMenu.jquery.css?vcss=${cssVersion}' rel='stylesheet' type='text/css' />
 <link href='${urlCss}flexslider.css?vcss=${cssVersion}' rel='stylesheet' type='text/css' />
 
