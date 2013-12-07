@@ -308,13 +308,18 @@
             <jpa default-datasource=""/>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:jsr77:1.0"/>
-        <subsystem xmlns="urn:jboss:domain:mail:1.0">
+        <subsystem xmlns="urn:jboss:domain:mail:1.1">
             <mail-session jndi-name="java:jboss/mail/Default">
                 <smtp-server outbound-socket-binding-ref="mail-smtp"/>
             </mail-session>
             <mail-session jndi-name="java:jboss/mail/Hotmail" from="assessoriagiro@hotmail.com">
                 <smtp-server tls="true" outbound-socket-binding-ref="hotmail-smtp">
 					<login name="assessoriagiro@hotmail.com" password="giro2011" />
+				</smtp-server>
+            </mail-session>
+            <mail-session jndi-name="java:jboss/mail/DonDominio" from="info@asesoria-giro.com">
+                <smtp-server outbound-socket-binding-ref="donDominio-smtp">
+					<login name="info@asesoria-giro.com" password="Giro2011" />
 				</smtp-server>
             </mail-session>
         </subsystem>
@@ -548,6 +553,9 @@
         </outbound-socket-binding>
         <outbound-socket-binding name="hotmail-smtp">
             <remote-destination host="smtp.live.com" port="587"/>
+        </outbound-socket-binding>
+        <outbound-socket-binding name="donDominio-smtp">
+            <remote-destination host="smtp.asesoria-giro.com" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
 </server>
