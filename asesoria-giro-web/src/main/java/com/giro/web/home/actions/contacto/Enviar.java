@@ -33,7 +33,7 @@ public class Enviar extends ActionSupport {
 
 	@Override
 	public String execute() throws Exception {
-		InternetAddress mailAsesoria = new InternetAddress("assessoriagiro@hotmail.com");
+		InternetAddress mailAsesoria = new InternetAddress("info@asesoria-giro.com");
 		InternetAddress mailAlex = new InternetAddress("alex.torfan@gmail.com");
 		MimeMessage message = new MimeMessage(this.mailSession);
 		message.setFrom(mailAsesoria);

@@ -11,6 +11,13 @@
 				url: "${urlEnviarContacto}",
 				data: $("#formularioContacto").serialize(),
 				type: "POST"
+<%--				, success: function(data) {
+					
+				},
+				error: function(xhr, error, status) {
+					
+				}
+--%>
 			});
 			return false;
 		});
@@ -54,6 +61,8 @@
 		<div class="fila">
 			<input style="width: 30px;" value="Enviar" id="btnEnviarContacto" />
 		</div>
-		<div id="confirmacionContacto" style="display: none;"><s:text name="generic.contacto.confirmacion" /></div>
+		<div id="confirmacionContacto" style="display: none;">
+			<s:text name="generic.contacto.confirmacion" />
+		</div>
 	</form>
 </div>
