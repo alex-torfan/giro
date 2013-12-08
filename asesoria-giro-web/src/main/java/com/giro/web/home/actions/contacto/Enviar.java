@@ -35,6 +35,7 @@ public class Enviar extends ActionSupport {
 	public String execute() throws Exception {
 		InternetAddress mailAsesoria = new InternetAddress("info@asesoria-giro.com");
 		InternetAddress mailAlex = new InternetAddress("alex.torfan@gmail.com");
+
 		MimeMessage message = new MimeMessage(this.mailSession);
 		message.setFrom(mailAsesoria);
 		message.addRecipient(Message.RecipientType.TO, mailAsesoria);
