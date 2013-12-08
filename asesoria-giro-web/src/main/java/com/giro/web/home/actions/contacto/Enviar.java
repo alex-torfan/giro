@@ -22,7 +22,6 @@ public class Enviar extends ActionSupport {
 
 	private static final long serialVersionUID = 7444730354526183678L;
 
-//	@Resource(mappedName = "java:jboss/mail/Hotmail")
 	@Resource(mappedName = "java:jboss/mail/DonDominio")
 	private Session mailSession;
 
